@@ -40,8 +40,8 @@ header nav ul li {
 	padding:0em 3.2em;
 	list-style-type:none;
 }
-/* SECTION */
-section {
+/* HOME */
+#home {
 	font-family:sans-serif;
 	margin:auto;
 	width:85%;
@@ -135,8 +135,35 @@ figure img {
 		float:left;
 	}
 }
+/* PAGES */
+#portfolio p {
+	padding:10em 0em;
+	text-align:center;
+}
+#about {
+	font-family:sans-serif;
+	margin:auto;
+	width:90%;
+	padding:1em 0em;
+}
+#about img {
+	margin-top:1em;
+	float:left;
+	width:150px;
+	height:150px;
+	border-radius:75px;
+}
+#about p {
+	font-size:1.2em;
+	padding-left:1em;
+	float:left;
+	width:61%;
+	margin-top:4em;
+}
 /* FOOTER */
 footer {
+	position:fixed;
+	bottom:0px;
 	padding:1em 0em;
 	clear:both;
 }
